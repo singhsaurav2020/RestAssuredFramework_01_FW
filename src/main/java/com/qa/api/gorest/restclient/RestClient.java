@@ -131,7 +131,7 @@ public class RestClient {
 			} else if (contentType.equalsIgnoreCase("TEXT")) {
 				request.contentType(ContentType.TEXT);
 			} else if (contentType.equalsIgnoreCase("multipart")) {
-				request.multiPart("image", new File("/Users/sauravsinghrawat/downloads/whatsapp.jpeg"));
+				request.multiPart("image", new File("src/main/java/com/qa/api/gorest/testdata/whatsapp.jpeg"));
 			}
 		}
 		return request;

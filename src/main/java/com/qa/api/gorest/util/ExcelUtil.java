@@ -13,8 +13,7 @@ public class ExcelUtil {
 
 	public static Workbook book;
 	public static Sheet sheet;
-	public static String TESTDATA_SHEET_PATH = "/Users/sauravsinghrawat/Desktop/personal/Automation/BrowserStack/RestAssuredFramework_01"
-			+ "/src/main/java/com/qa/api/gorest/testdata/GoRestTestData.xlsx";
+	public static String TESTDATA_SHEET_PATH = "src/main/java/com/qa/api/gorest/testdata/GoRestTestData.xlsx";
 
 	public static Object[][] getTestData(String SheetName) {
 		try {
