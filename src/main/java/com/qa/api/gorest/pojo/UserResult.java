@@ -4,7 +4,7 @@ public class UserResult {
 
 	public static UserBookingDetails getUserdetailsData() {
 		Bookingdates bd = new Bookingdates("2022-01-01", "2022-01-02");
-		AdditionalNeeds needs = new AdditionalNeeds("Dosa");
+		AdditionalNeeds needs = new AdditionalNeeds("Samosa");
 		UserBookingDetails userdetails = new UserBookingDetails("SaURaV", "RaWaT", "007", "true", bd, needs);
 		return userdetails;
 	}
